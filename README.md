@@ -59,7 +59,8 @@ FULL SUBRACTOR:
 5.For different input combinations generate the timing diagram.
 
 **Program:**
-Full ADDER :
+
+**Full ADDER :**
 ~~~
 module exp4 (a,b,d,s,c);
 input a,b,d;
@@ -68,7 +69,7 @@ xor g1(s,a,b,d);
 assign c=(a&b)|(b&d)|(d&a);
 endmodule 
 ~~~
-FULL SUBRACTOR :
+**FULL SUBRACTOR :**
 ~~~
 module exp4 (a,b,c,d,b0);
 input a,b,c;
@@ -80,21 +81,23 @@ endmodule
 ~~~
 
 **RTL Schematic**
-FULL ADDER:
+
+**FULL ADDER:**
 
 <img width="1660" height="1067" alt="Screenshot 2025-11-19 110526" src="https://github.com/user-attachments/assets/d978eca0-62e0-46a8-9ff9-aad1ab58726e" />
 
-FULL SUBRACTOR:
+**FULL SUBRACTOR:**
 
 <img width="1919" height="1079" alt="Screenshot 2025-11-19 112627" src="https://github.com/user-attachments/assets/25d69864-117f-4cc0-83b8-1097aa92c431" />
 
 
 **Output Timing Waveform**
-FULL ADDER:
+
+**FULL ADDER:**
 
 <img width="1919" height="1079" alt="Screenshot 2025-11-19 110214" src="https://github.com/user-attachments/assets/3a6adceb-8233-44f1-8ac8-af89cfa614bc" />
 
-FULL SUBRACTOR:
+**FULL SUBRACTOR:**
 
 <img width="1918" height="1078" alt="Screenshot 2025-11-19 112603" src="https://github.com/user-attachments/assets/1272f5f3-ace8-4618-8315-72335fe60b92" />
 
